@@ -6,12 +6,9 @@
     "node": "16.x"
   },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "lint": "vue-cli-service lint",
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "node server.js",
+    "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "postinstall": "npm run build"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "bulma": "^0.9.4",
